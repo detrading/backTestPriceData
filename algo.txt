@@ -1,0 +1,18 @@
+Algorithm
+1. try to maintain equal value across exchanges
+2. check TOC in both exchanges
+  1. if price higher in binance
+    1. buy on bittrex, sell on binance
+  2. if price lower in binance
+    1. buy bin, sell bittrex
+3. IF PRICE SAME → PREFER BINANCE PRICES
+  1. ONLY USE BITTREX ON SUBSTANTIAL DISCREPANCIES
+3. ORDERBOOK ANALYSIS
+  1. Each minute
+    1. FIRST ORDER
+      1. INSERT SEVERAL SATOSHIS/ PCT MARKS DOWN FROM BID
+    2. SECOND ORDER
+      1. INSERT SEVERAL SATOSHIS/ PCT MARKS UP FROM ASK
+   2. FILL IN ORDER BOOK TO MAKE IT LOOK MORE FULL
+    1. BOTH EXCHANGES
+3. 
