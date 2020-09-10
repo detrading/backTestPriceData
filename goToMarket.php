@@ -1,4 +1,13 @@
 <?PHP
+
+require_once("binance_api2.php");
+require_once("binance_api2.php");
+require_once('funct.php');
+require_once( dirname(__DIR__)."/dbcrypto_binance.php");
+
+ $keyp = ""; 
+$secret = "";
+
 \$binanceport = new Binancezz ($keyp, $secret);
 $binanceport2 = new Binance\API($keyp,$secret);
  //$binanceport2->useServerTime();
