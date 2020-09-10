@@ -1,4 +1,5 @@
 <?PHP
+require_once('funct.php');require_once("../../dbcrypto_bittrex.php");
 
 $sampleSizeStarting = 240;
 $sampleSizeRunning = $sampleSizeStarting; 
