@@ -1,0 +1,13 @@
+$myfile = file('/var/'.$market.'.csv');
+
+
+$csv = array_map('str_getcsv', $myfile);
+
+
+foreach($csv as $location => $data){
+$bidPriceFetched[] = $data[1];
+$askPriceFetched[] = $data[2];
+$volumeFetched[] = $data[3];
+$dtFetched[] = $data[4];
+//echo '<pre>';print_r($data); echo '<pre>'; 
+}
